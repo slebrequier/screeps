@@ -2,7 +2,6 @@ var roleHarvester = require('role.harvester');
 var roleBuilder = require('role.builder');
 
 module.exports.loop = function () {
-
     for (var name in Game.rooms) {
         console.log('Room "' + name + '" has ' + Game.rooms[name].energyAvailable + ' energy');
     }
